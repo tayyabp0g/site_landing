@@ -39,8 +39,8 @@
       <span class="green-icon">
         <i class="fa-solid fa-sparkles"></i>
       </span>
-      <span class="hero-arrow-icon">
-        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+      <span class="hero-arrow-icon">➚
+        <!-- <i class="fa-solid fa-arrow-up-right-from-square"></i> -->
       </span>
       <span class="hero-doc-icon">
         <i class="fa-regular fa-file"></i>
@@ -49,11 +49,16 @@
     <!-- Wavy lines icon -->
     <span class="hero-wave-icon">
       <i class="fa-solid fa-water"></i>
-    </span>
+    </span> 
 
     <!-- Bar chart icon -->
-    <span class="hero-bar-icon">
-      <i class="fa-solid fa-chart-bar"></i>
+    <span class="hero-bar-icon custom-bar-icon">
+      <svg width="28" height="28" viewBox="0 0 22 22" fill="none">
+        <circle cx="11" cy="11" r="11" fill="#E2FEC8"/>
+        <rect x="6" y="9" width="2" height="6" rx="1" fill="#142F32"/>
+        <rect x="10" y="6" width="2" height="9" rx="1" fill="#142F32"/>
+        <rect x="14" y="12" width="2" height="3" rx="1" fill="#142F32"/>
+      </svg>
     </span>
   </section>
 
@@ -78,8 +83,23 @@
       </div>
       
       <div class="stats-card white">
-        <div class="icon">🗂️</div>
-        <div class="desc-top">Total Projects <span class="increase">▲ 8%</span></div>
+        <span class="card-menu-dots">
+          <svg width="17" height="25" viewBox="0 0 20 32" fill="none">
+            <circle cx="10" cy="6" r="2" fill="#BDBDBD"/>
+            <circle cx="10" cy="16" r="2" fill="#BDBDBD"/>
+            <circle cx="10" cy="26" r="2" fill="#BDBDBD"/>
+          </svg>
+        </span>
+        <div class="icon custom-dashboard-icon">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+            <rect x="3" y="3" width="26" height="26" rx="8" fill="#E2FEC8"/>
+            <rect x="10" y="8" width="5" height="7" rx="1" stroke="#153D37" stroke-width="2"/>
+            <rect x="17" y="8" width="5" height="7" rx="1" stroke="#153D37" stroke-width="2"/>
+            <rect x="10" y="17" width="5" height="7" rx="1" stroke="#153D37" stroke-width="2"/>
+            <rect x="17" y="17" width="5" height="7" rx="1" stroke="#153D37" stroke-width="2"/>
+          </svg>
+        </div>
+        <div class="desc-top">Total Projects <span class="increase">↗ 8%</span></div>
         <div class="big dark-text">1951+</div>
         <div class="desc">Increase of <span class="increase">126</span> this month</div>
       </div>
@@ -87,12 +107,20 @@
         <div class="big">6+</div>
         <div class="center-text">Years of<br>Dedicated Service</div>
       </div>
-      <div class="stats-card">
-        <div class="icon">⏱️</div>
-        <div class="center-text"><pre>
-Achieve Optimal Efficiency 
-and Boost
- Productivity</pre></div>
+      <div class="stats-card custom-dark-card speedometer-layout">
+        <div class="icon speedometer-icon">
+          <svg width="36" height="36" viewBox="0 0 36 36" fill="none">
+            <circle cx="18" cy="18" r="12" stroke="#fff" stroke-width="2"/>
+            <path d="M18 18 L26 18" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+            <circle cx="18" cy="18" r="2" fill="#fff"/>
+            <path d="M18 18 L22 12" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <div class="card-title">
+          Achieve Optimal<br>
+          Efficiency and Boost<br>
+          Productivity
+        </div>
       </div>
     </div>
   </section>
@@ -338,5 +366,4 @@ more information.</pre>
     </div>
   </footer>
 </body>
->>>>>>> 0ac3a845090597e2b2c67f7273a07c93f6f84e32
 </html>
