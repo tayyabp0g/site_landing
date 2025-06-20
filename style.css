@@ -243,13 +243,13 @@ nav a {
   text-align: center;
 }
 .services h2 {
-  font-size: 2.3rem;
-  font-weight: 700;
+  font-size: 1.8rem;
+  font-weight: 200;
   margin-bottom: 0.5rem;
 }
 .services-subtitle {
-  color: #b6c3c7;
-  font-size: 1.08rem;
+  color: #C1C3C3;
+  font-size: 0.7rem;
   margin-bottom: 2.5rem;
 }
 .service-grid {
@@ -257,7 +257,7 @@ nav a {
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
   margin-top: 2rem;
-  max-width: 1200px;
+  max-width: 985px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -286,23 +286,43 @@ nav a {
   left: 1.5rem;
 }
 .service-arrow {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   position: absolute;
   top: 1.5rem;
   right: 1.5rem;
-  color: #b6c3c7;
+  color:white;
+  
 }
 .service-title {
-  font-size: 1.18rem;
-  font-weight: 600;
-  margin-top: 2.8rem;
+  font-size:0.8rem;
+  font-weight: 350;
+  margin-top: 5rem;
   margin-bottom: 0.6rem;
   color: #fff;
 }
 .service-desc {
-  color: #b6c3c7;
-  font-size: 1rem;
+  color:#C1C3C3;;
+  font-size: 0.7rem;
   line-height: 1.6;
+  
+}
+.service-asterisk-icon {
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 16px;
+  margin-top: 4px;
+  margin-left: 2px;
+  width: 36px;
+  height: 36px;
+}
+.service-wrench-icon {
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 16px;
+  margin-top: 4px;
+  margin-left: 2px;
+  width: 36px;
+  height: 36px;
 }
 
 /* ========== BENEFITS SIMPLE SECTION ========== */
@@ -331,46 +351,26 @@ nav a {
 /* ========== BENEFITS IMAGE SECTION ========== */
 .benefits-section {
   background: #f6f9fc;
-  padding: 4rem 0;
+  padding: 7rem 0;
   width: 100%;
 }
 .benefits-container {
   display: flex;
+  flex-direction: row;      /* Ensure horizontal layout */
   align-items: center;
   justify-content: center;
-  max-width: 1200px;
-  margin: auto;
-  gap: 3rem;
-  flex-wrap: wrap;
-}
-.benefits-image {
-  flex: 1 1 380px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.benefits-image img {
-  max-width: 100%;
-  width: 420px;
-  border-radius: 24px;
-  box-shadow: 0 4px 32px rgba(20,47,50,0.08);
-  background: #fff;
-}
-.benefits-content {
-  flex: 1 1 420px;
-  min-width: 320px;
-  text-align: left;
+  gap: 6rem;                /* Adjust gap as needed */
 }
 .benefits-content h2 {
-  font-size: 2.3rem;
-  font-weight: 700;
+  font-size: 1.4rem;
+  font-weight: 600;
   margin-bottom: 1rem;
   line-height: 1.2;
   color: #111827;
 }
 .benefits-lead {
   color: #6b7280;
-  font-size: 1.1rem;
+  font-size: 0.8rem;
   margin-bottom: 2rem;
 }
 .benefits-section .benefits-list {
@@ -383,21 +383,21 @@ nav a {
   align-items: flex-start;
   margin-bottom: 1.5rem;
 }
-.benefit-check {
+/* .benefit-check {
   color: #0ca678;
   font-size: 1.5rem;
   margin-right: 1rem;
   margin-top: 3px;
   flex-shrink: 0;
-}
+} */
 .benefits-section .benefits-list strong {
-  font-size: 1.08rem;
+  font-size: 1rem;
   color: #111827;
 }
 .benefit-desc {
   color: #6b7280;
-  font-size: 1rem;
-  margin-top: 0.2rem;
+  font-size: 0.8rem;
+  margin-top: 0.4rem;
 }
 .benefits-note {
   color: #6b7280;
@@ -413,8 +413,8 @@ nav a {
   min-height: 100vh;
 }
 .plans h2 {
-  font-size: 2.5rem;
-  font-weight: 700;
+  font-size: 2rem;
+  font-weight: 500;
   margin-bottom: 0.5rem;
   text-align: center;
 }
@@ -422,7 +422,7 @@ nav a {
   color: #b6c3c7;
   text-align: center;
   margin-bottom: 2.5rem;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 .plans-grid {
   display: flex;
@@ -440,7 +440,7 @@ nav a {
   min-width: 320px;
   max-width: 370px;
   min-height: 540px;         /* Minimum height for equal look */
-  display: flex;
+  display: initial;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
@@ -454,16 +454,16 @@ nav a {
   transform: scale(1.04);
 }
 .plan-title {
-  font-size: 1.3rem;
-  font-weight: 600;
+  font-size: 1.1rem;
+  font-weight: 500;
   margin-bottom: 0.5rem;
   letter-spacing: 0.5px;
 }
 .plan-desc {
-  color: #b6c3c7;
-  font-size: 1rem;
+  color: #777C90;
+  font-size: 0.8rem;
   margin-bottom: 1.5rem;
-  text-align: center;
+  text-align: initial;
 }
 .plan-price-row {
   display: flex;
@@ -472,8 +472,8 @@ nav a {
   margin-bottom: 1.2rem;
 }
 .plan-amount {
-  font-size: 2.2rem;
-  font-weight: 700;
+  font-size: 1.5rem;
+  font-weight: 600;
   color: #fff;
 }
 .plan-duration {
@@ -506,6 +506,9 @@ nav a {
   opacity: 0.5;
 }
 .plan-features-title {
+ 
+}
+.plan-features-title {
   color: #b6c3c7;
   font-size: 1rem;
   margin-bottom: 0.7rem;
@@ -519,13 +522,7 @@ nav a {
   margin: 0;
   width: 100%;
 }
-.plan-features li {
-  margin-bottom: 1rem;
-  padding-left: 1.8rem;
-  position: relative;
-  color: #fff;
-  font-size: 1.05rem;
-}
+
 .plan-features li::before {
   content: "✔";
   color: #b6e3b6;
@@ -547,14 +544,14 @@ nav a {
   box-shadow: 0 4px 24px 0 rgba(20,47,50,0.10);
 }
 .horizontal-title {
-  font-size: 1.3rem;
-  font-weight: 600;
+  font-size: 1.1rem;
+  font-weight: 500;
   margin-bottom: 0.7rem;
   color: #fff;
 }
 .horizontal-desc {
   color: #b6c3c7;
-  font-size: 1rem;
+  font-size: 0.8rem;
   margin-bottom: 1.5rem;
   text-align: center;
   max-width: 600px;
@@ -564,7 +561,7 @@ nav a {
   color: #142F32;
   border: none;
   border-radius: 999px;
-  padding: 0.7rem 2.2rem;
+  padding: 0.7rem 1.2rem;
   font-size: 1.08rem;
   font-weight: 600;
   cursor: pointer;
@@ -671,8 +668,7 @@ footer {
   
 }
 .footer-logo-text {
-  font-size: 1.3rem;
-  font-weight: 600;
+  font-size:
   color: #fff;
   margin-left: -20%;
  margin-top: 10%;
@@ -774,18 +770,8 @@ footer {
   .service-grid {
     grid-template-columns: 1fr;
   }
-  .benefits-container {
-    flex-direction: column;
-    gap: 2rem;
-    padding: 0 1rem;
-  }
-  .benefits-image img {
-    width: 100%;
-    max-width: 350px;
-  }
-  .benefits-content {
-    text-align: center;
-  }
+
+ 
   .benefits-section .benefits-list li {
     justify-content: center;
     text-align: left;
@@ -838,26 +824,15 @@ footer {
 }
 .partners-left h2 {
   color: #111827; /* Dark heading */
-  font-size: 2rem; /* Size barha diya */
+  font-size: 1.3rem; /* Size barha diya */
+  margin-bottom: 10px;
  
   
 }
 .partners-left pre {
-  color: #111827;   /* Heading text bhi dark hi rahe */
-  background: none;
-  border: none;
-  font-family: inherit;
-  font-size: inherit;
-  margin: 0;
-  padding: 0;
-  background: none;
-  border: none;
-  font-family: inherit;
-  font-size: 1.1rem;
-  margin: 0;
-  padding: 0;
-  white-space: pre-line;
-  line-height: 1.6;
+  color:black;
+  font-size: 1.5rem;   /* Heading text bhi dark hi rahe */
+ 
 }
 .partners-btn {
   background: #eaffd7;
@@ -866,10 +841,12 @@ footer {
   padding: 0.9rem 2.2rem;
   font-size: 1.1rem;
   font-weight: 500;
-  border: none;
-  box-shadow: 0 2px 8px rgba(20,47,50,0.04);
-  transition: background 0.2s, color 0.2s;
-  display: inline-block;
+ 
+  
+   padding: 12px 32px;      /* Adjust padding for height and width */
+  font-size: 1.1rem;       /* Adjust font size */
+  border-radius: 8px;      /* Optional: adjust corner roundness */
+  min-width: 120px;
 }
 .partners-btn:hover {
   background: #D7F2C2;
@@ -886,17 +863,7 @@ footer {
   align-items: center;
   min-width: 320px;
 }
-.partners-graphic {
-  background: #eaffd7;
-  border-radius: 24px;
-  padding: 2.5rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-width: 420px;
-  min-height: 450px;
-  box-shadow: 0 4px 24px rgba(0,0,0,0.04);
-}
+
 .partners-graphic img {
   max-width: 340px;
   width: 100%;
@@ -1060,7 +1027,7 @@ footer {
   flex-direction: column;
   justify-content: flex-end;
   height: 100%;
-  padding-bottom: 32px; /* Adjust for how close to bottom you want the text */
+  padding-bottom: 88px; /* Adjust for how close to bottom you want the text */
 }
 .speedometer-layout .speedometer-icon {
   align-self: flex-start;
@@ -1069,4 +1036,204 @@ footer {
 .speedometer-layout .card-title {
   margin-top: 0;
   margin-bottom: 0;
+}
+.service-asterisk-icon {
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 16px;
+  margin-top: 4px;
+  margin-left: 2px;
+  width: 36px;
+  height: 36px;
+}
+.service-layers-icon {
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 16px;
+  margin-top: 4px;
+  margin-left: 2px;
+  width: 36px;
+  height: 36px;
+}
+.benefits-image {
+  position: relative;
+  width: 397px;
+  height: 320px;
+  background: #fff;
+  border-radius: 24px;
+  box-shadow: 0 8px 40px #0001;
+  padding: 32px 24px 24px 24px;
+  box-sizing: border-box;
+  overflow: visible;
+  margin-bottom: 32px;
+}
+.dashboard-card {
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 2px 12px #0001;
+  padding: 30px;
+width: 338px;
+}
+.dashboard-header {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 18px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.dashboard-title {
+  font-size: 1.1rem;
+  color: #6b7280;
+}
+.dashboard-value {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-left: -1px;
+  color: #0A373C;
+}
+.dashboard-growth {
+  color: #1AA681;
+  font-size: 1rem;
+  margin-left: 8px;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+.dashboard-progress .progress-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  font-size: 1rem;
+  color: #777C90  ;
+}
+.progress-bar {
+  flex: 2;
+  height: 10px;
+  background: #e6eaea;
+  border-radius: 4px;
+  margin: 0 8px;
+  overflow: hidden;
+}
+.progress-fill {
+  height: 100%;
+  background: #1AA681;
+  border-radius: 4px;
+  opacity: 0.18;
+}
+.dashboard-bars {
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+  margin-top: 18px;
+  height: 48px;
+}
+.bar {
+  width: 24px;
+  border-radius: 6px 6px 0 0;
+  background: #142F32;
+  opacity: 0.8;
+}
+.bar1 { height: 60px; }
+.bar2 { height: 40px; background: #1AA681; }
+.bar3 { height: 30px; background: #142F32; opacity: 0.5; }
+.bar4 { height: 50px; background: #1AA681; opacity: 0.5; }
+
+.dashboard-floating-card {
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px #0002;
+  padding: 0px 1px 35px 14px;
+  width: 223px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  margin-left: 150px;
+  margin-top: -80px;
+}
+
+.floating-icon {
+  background: #E7FDD8;
+  border-radius: 12px;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 11px;
+}
+.floating-content {
+  width: 100%;
+}
+.floating-title-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 2px;
+}
+.floating-title {
+  font-size: 1rem;
+  color:black;
+  font-weight: 400;
+}
+.floating-growth {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.growth-dark-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.growth-percent {
+  color: #0A373C;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.floating-value {
+  font-size: 2.1rem;
+  font-weight: 600;
+  color: black;
+  margin-bottom: 2px;
+}
+.floating-desc {
+  font-size: 1rem;
+  color: #888C96;
+  margin-top: 4px;
+}
+.floating-increase {
+  color: #1AA681;
+  font-weight: 600;
+}
+.floating-menu {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  font-size: 1.5rem;
+  color: #bbb;
+  cursor: pointer;
+  margin-top: -15px;
+}
+.feature-check {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+.first{
+  font-size: 0.8rem;
+ 
+
+}
+.imo {
+  color: #b6c3c7;         /* Your desired color */
+  font-size: 0.9rem;      /* Your desired font size */
+  font-family: inherit;   /* Use normal font, not monospace */
+  background: none;       /* Remove default background */
+  border: none;           /* Remove default border */
+  padding: 0;             /* Remove default padding */
+  margin: 0;              /* Remove default margin */
+    /* Keep line breaks, but allow wrapping */
 }
