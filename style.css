@@ -505,9 +505,7 @@ nav a {
   margin: 1.2rem 0 0.7rem 0;
   opacity: 0.5;
 }
-.plan-features-title {
- 
-}
+
 .plan-features-title {
   color: #b6c3c7;
   font-size: 1rem;
@@ -523,14 +521,7 @@ nav a {
   width: 100%;
 }
 
-.plan-features li::before {
-  content: "✔";
-  color: #b6e3b6;
-  font-size: 1.1rem;
-  position: absolute;
-  left: 0;
-  top: 0;
-}
+
 .horizontal-card {
   background: #142F32;
   border-radius: 20px;
@@ -667,12 +658,12 @@ footer {
   margin-bottom: 5%;
   
 }
-.footer-logo-text {
+/* .footer-logo-text {
   font-size:
   color: #fff;
   margin-left: -20%;
  margin-top: 10%;
-}
+} */
 .footer-desc {
   color: #b6c3c7;
   font-size: 1rem;
