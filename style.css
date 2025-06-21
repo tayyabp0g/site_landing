@@ -581,8 +581,8 @@ footer {
   
 }
 .footer-cta h2 {
-  font-size: 2.5rem;
-  font-weight: 700;
+  font-size: 2.3rem;
+  font-weight: 500;
   
 }
 .footer-cta p {
@@ -592,19 +592,19 @@ footer {
 }
 .footer-cta-desc {
   color: #777C90;
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   background: none;
   border: none;
   font-family: inherit;
-  margin: 0 0 2.2rem 0;
-  line-height: 1.6;
+  margin: 4px 0 2.2rem 0;
+  line-height: 1.3;
   white-space: pre-line;
 }
 .footer-cta-btn {
       /* Height kam, width zyada */
   font-size: 1rem;
-  width: 150px;
-  height: 50px;              /* Height ko thoda kam kiya */
+  width: 137px;
+  height: 47px;              /* Height ko thoda kam kiya */
   border-radius: 999px;
   background: #eaffd7;
   color: #142F32;
@@ -671,7 +671,7 @@ footer {
 }
 .footer-desc-pre {
   color: #b6c3c7;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   margin: 0;
   background: none;
   border: none;
@@ -697,7 +697,7 @@ footer {
 .footer-col ul li a {
   color: #b6c3c7;
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 0.8rem;
   transition: color 0.2s;
 }
 .footer-col ul li a:hover {
@@ -751,7 +751,7 @@ footer {
 .footer-links {
   display: flex;
   gap: 1.5rem;
-  margin-right: 10rem; /* Thoda sa left shift */
+  margin-right: 3rem; /* Thoda sa left shift */
 }
 .latest-tech-heading {
   color: #142F32; ;
@@ -797,7 +797,7 @@ footer {
 /* PARTNERS SECTION */
 .partners {
   background: #fff;
-  padding: 4rem 0;
+  padding: 7rem 0;
 }
 .partners-row {
   display: flex;
@@ -825,28 +825,7 @@ footer {
   font-size: 1.5rem;   /* Heading text bhi dark hi rahe */
  
 }
-.partners-btn {
-  background: #eaffd7;
-  color: #142F32;
-  border-radius: 999px;
-  padding: 0.9rem 2.2rem;
-  font-size: 1.1rem;
-  font-weight: 500;
- 
-  
-   padding: 12px 32px;      /* Adjust padding for height and width */
-  font-size: 1.1rem;       /* Adjust font size */
-  border-radius: 8px;      /* Optional: adjust corner roundness */
-  min-width: 120px;
-}
-.partners-btn:hover {
-  background: #D7F2C2;
-  color: #142F32;
-  border-radius: 80px;
-  height: fit-content;
-  padding: 0.9rem 1.2rem;
-  width: fit-content;
-}
+
 .partners-right {
   flex: 1 1 480px;
   display: flex;
@@ -1227,4 +1206,31 @@ width: 338px;
   padding: 0;             /* Remove default padding */
   margin: 0;              /* Remove default margin */
     /* Keep line breaks, but allow wrapping */
+}
+.footertext{
+  margin-right: 20px;
+}
+
+/* Partners Section Work With Us Button */
+.partners-btn {
+  font-size: 1rem;
+  width: 130px;
+  height: 46px;
+  border-radius: 999px;
+  background: #DEFDCB;
+  color: #142F32;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(20,47,50,0.04);
+  display: inline-block;
+  line-height: 1;
+  padding: 0;
+  margin-top: 18px;
+  margin-bottom: 0;
+  transition: none;
+}
+.partners-btn strong {
+  font-weight: 550;
+  font-size: 0.9rem;
 }
